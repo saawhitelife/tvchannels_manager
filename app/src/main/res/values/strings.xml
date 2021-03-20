@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">ChannelsList</string>
+    <string name="empty_list_text">No channels found</string>
+    <string name="enter_number">Enter number</string>
+    <string name="enter_name">Enter channel</string>
+    <string name="enter_searchname">Enter name for search</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_delete">Delete</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_speech">Speech</string>
+    <string name="action_import_xls">Import XLS</string>
+
+    <!-- Add channel -->
+    <string name="add_channel">Add channel</string>
+    <string name="cancel_channel_add">Cancel</string>
+
+
+    <!-- Search -->
+    <string name="search_hint">channel</string>
+    <string name="action_search">Search</string>
+
+    <!-- Add TV -->
+    <string name="action_add_tv">Add TV</string>
+    <string name="add_tv_message">Enter TV name (min 3 chars. only letters, digits, spaces)</string>
+    <string name="add_tv_positive_button">Add</string>
+    <string name="add_empty_tv">TV name cannot be empty</string>
+    <string name="add_tv_hint">TV name</string>
+    <string name="add_tv_prohibited_symbols">You can use only letters, digits and spaces</string>
+    <string name="add_tv_too_short_name">Minimum name length is 3</string>
+    <string name="create_tv_to_add_channels">Please first create a tv to add channels</string>
+
+    <!-- Rename TV -->
+    <string name="action_rename_tv">Rename TV</string>
+    <string name="action_rename_tv_title">Rename TV %s</string>
+    <string name="rename_tv_confirm">Rename</string>
+
+    <!-- Remove TV -->
+    <string name="action_remove_tv">Remove TV</string>
+    <string name="remove_tv_dialog_title">Remove TV %s</string>
+    <string name="delete_tv">Delete tv</string>
+    <string name="dont_delete_tv">Cancel</string>
+</resources>

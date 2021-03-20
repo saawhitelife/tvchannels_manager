@@ -1,0 +1,54 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.channelslist.MainActivity">
+
+    <item
+        android:id="@+id/add_channel"
+        android:icon="@drawable/baseline_add_circle_outline_24"
+        android:orderInCategory="100"
+        android:title="@string/add_channel"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/outline_search_24"
+        android:title="@string/action_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always" />
+    <!--    app:showAsAction="ifRoom|collapseActionView"-->
+
+
+    <item
+        android:id="@+id/action_speech"
+        android:icon="@drawable/outline_keyboard_voice_24"
+        android:title="@string/action_speech"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_add_tv"
+        android:title="@string/action_add_tv"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_rename_tv"
+        android:title="@string/action_rename_tv"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_remove_tv"
+        android:title="@string/action_remove_tv"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_import_xls"
+        android:title="@string/action_import_xls"
+        app:showAsAction="never" />
+</menu>
